@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.container{
+    margin: 0 auto;
+}
+.UEFA{
+    font-size: 20px;
+    color:black
+}
+.UEFA_Com2{
+    text-decoration: none;
+}
+.Com{
+    color: gray;
+}
+.UEFA_com{
+    padding-right:550px;
+    font-family: 'Geologica', sans-serif;
+}
+.first_header{
+    width: 100%;
+    background-color: gainsboro
+}
+li{
+    display: flex;
+    display: inline-block;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+li:hover{
+    color: darkturquoise;
+}
+.login_icon{
+    width: 25px;
+}
+.uefa_logo{
+    width: 100px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    vertical-align: middle;
+}
+.Favourite_teams{
+    margin-left: 350px;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 10px;
+    vertical-align: middle;
+}
+.plus_button{
+    width: 20px;
+    vertical-align: middle;
+}
+.second_header{
+    width: 100%;
+    background-color:#00004b;
+    height: 60px;
+}
+.Matches{
+    color: white;
+}
+.Video{
+    color: white;
+}
+.Gaming{
+    color: white;
+}
+.Teams{
+    color: white;
+}
+.News{
+    color: white;
+}
+.History{
+    color: white;
+}
+.About{
+    color: white;
+}
+.Store{
+    color: white;
+}
