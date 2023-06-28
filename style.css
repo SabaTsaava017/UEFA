@@ -167,6 +167,16 @@ li:hover{
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
 }
+.messi_picture:hover{
+    transform: scale(1.1);
+}
+.messi_picture2{
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+.messi_picture2:hover{
+    transform: scale(1.1);
+}
 .box2_paragrap{
     font-size: 20px;
     padding-left: 20px;
