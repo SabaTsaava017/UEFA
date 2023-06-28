@@ -46,7 +46,7 @@ li:hover{
     vertical-align: middle;
 }
 .Favourite_teams{
-    margin-left: 350px;
+    margin-left: 300px;
     font-size: 17px;
     border-radius: 20px;
     padding: 10px;
@@ -59,10 +59,11 @@ li:hover{
 .second_header{
     width: 100%;
     background-color:#00004b;
-    height: 60px;
+    height: 70px;
 }
 .Matches{
     color: white;
+    padding-top: 22px;
 }
 .Video{
     color: white;
@@ -84,4 +85,95 @@ li:hover{
 }
 .Store{
     color: white;
+}
+.news{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.wrapeer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 100px;
+    gap: 30px;
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.box2{
+    border: solid black;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+.box3{
+    border: solid black;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin-top: 40px;
+    border-radius: 10px;
+    
+}
+.box4{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    border-radius: 10px;
+}
+.box5{
+    background-color: burlywood;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    border-radius: 10px;
+}
+.box6{
+    background-color: darkcyan;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    border-radius: 10px;
+}
+.cup_picture{
+    width: 740px;
+    height: 448px;
+    border-radius: 20px;
+    position: absolute;
+}
+.box1_paragrap{
+    position: relative;
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 370px;
+}
+.messi_picture{
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+.box2_paragrap{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.box3_paragrap{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
