@@ -88,7 +88,7 @@ li:hover{
 }
 .news{
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left:55px;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }
@@ -98,7 +98,12 @@ li:hover{
     grid-auto-rows: 100px;
     gap: 30px;
 }
+.container2{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 .box1{
+    border: solid;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -107,7 +112,7 @@ li:hover{
     border-radius: 10px;
 }
 .box2{
-    border: solid black;
+    border: solid;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -117,7 +122,7 @@ li:hover{
 
 }
 .box3{
-    border: solid black;
+    border: solid;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -127,63 +132,128 @@ li:hover{
     
 }
 .box4{
-    background-color: blue;
+    border: solid;
     grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 9;
-    border-radius: 10px;
-}
-.box5{
-    background-color: burlywood;
-    grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 9;
     border-radius: 10px;
 }
-.box6{
-    background-color: darkcyan;
+.box5{
+    border: solid;
     grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    border-radius: 10px;
+}
+.box6{
+    border: solid;
+    grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 5;
     grid-row-end: 9;
     border-radius: 10px;
 }
-.cup_picture{
-    width: 740px;
-    height: 448px;
-    border-radius: 20px;
+.box7{
+    border: solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 13;
+    border-radius: 10px;
+}
+.box8{
+    background-color: chocolate;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end:13;
+    border-radius: 10px;
+
+}
+.box9{
+    background-color: yellowgreen;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end:13;
+    border-radius: 10px;
+}
+.champions_league_picture{
+    width: 607px;
+    height: 445px;
+    border-radius: 10px;
     position: absolute;
 }
 .box1_paragrap{
     position: relative;
-    color: aliceblue;
-    font-size: 30px;
-    padding-left: 20px;
-    padding-top: 370px;
+    color: white;
+    font-size: 25px;
+    padding-top: 390px;
 }
 .messi_picture{
-    border-top-left-radius: 10px ;
+    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-.messi_picture:hover{
-    transform: scale(1.1);
-}
-.messi_picture2{
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
-}
-.messi_picture2:hover{
-    transform: scale(1.1);
+
 }
 .box2_paragrap{
-    font-size: 20px;
-    padding-left: 20px;
+    font-size: 25px;
     padding-top: 20px;
+    padding-left: 20px;
+}
+.messis_picture2{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .box3_paragrap{
-    font-size: 20px;
-    padding-left: 20px;
+    font-size: 25px;
     padding-top: 20px;
+    padding-left: 20px;
 }
+
+.kvras_picture{
+    width: 607px;
+    height: 485px;
+    border-radius: 10px;
+    position: absolute;
+}
+.box4_paragrap{
+    position: relative;
+    color: white;
+    padding-top: 430px;
+    font-size: 25px;
+}
+.ronaldos_picture{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box5_paragrap{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.champions_league_cup{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box6_paragrap{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.team_of_season_picture{
+    position: absolute;
+    width: 607px;
+    height: 485px;
+    border-radius: 10px;
+}
+.box7_paragrap{
+    position: relative;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-top: 450px;
+    color: white;
+}
+
