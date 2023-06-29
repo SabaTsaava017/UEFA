@@ -164,7 +164,7 @@ li:hover{
     border-radius: 10px;
 }
 .box8{
-    background-color: chocolate;
+    border: solid;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 9;
@@ -173,7 +173,7 @@ li:hover{
 
 }
 .box9{
-    background-color: yellowgreen;
+    border: solid;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 9;
@@ -191,6 +191,7 @@ li:hover{
     color: white;
     font-size: 25px;
     padding-top: 390px;
+    text-decoration: none;
 }
 .messi_picture{
     border-top-left-radius: 10px;
@@ -256,4 +257,59 @@ li:hover{
     padding-top: 450px;
     color: white;
 }
+.Milan_FC_Picture{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box8_paragrap{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.uefas_final_picture{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 370px;
+}
+.box9_paragrap{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.footer_picture{
+    position: absolute;
+    padding-top: 50px;
+    width: 1519px;
+}
+.logo2{
+    position: relative;
+    width: 150px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.footer_paragrap1{
+    position: relative;
+    padding-left: 100px;
+    padding-top: 130px;
+    color: white;
+}
+.footer_div{
+    display: flex;
+}
+.footer_paragrap2{
+    position: relative;
+    color: white;
+    padding-top: 130px;
+    padding-left: 280px;
+}
+.also_visit{
+    font-size: 15px;
+   
 
+}
+.footer_paragrap3{
+    position: relative;
+    padding-left: 230px;
+    padding-top: 130px;
+    color: white;
+}
