@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.container{
+    margin: 0 auto;
+}
+.UEFA{
+    font-size: 20px;
+    color:black
+}
+.UEFA_Com2{
+    text-decoration: none;
+}
+.Com{
+    color: gray;
+}
+.UEFA_com{
+    padding-right:550px;
+    font-family: 'Geologica', sans-serif;
+}
+.first_header{
+    width: 100%;
+    background-color: gainsboro
+}
+li{
+    display: flex;
+    display: inline-block;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+li:hover{
+    color: darkturquoise;
+}
+.login_icon{
+    width: 25px;
+}
+.uefa_logo{
+    width: 100px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    vertical-align: middle;
+}
+.Favourite_teams{
+    margin-left: 300px;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 10px;
+    vertical-align: middle;
+}
+.plus_button{
+    width: 20px;
+    vertical-align: middle;
+}
+.second_header{
+    width: 100%;
+    background-color:#00004b;
+    height: 70px;
+}
+.Matches{
+    color: white;
+    padding-top: 22px;
+}
+.Video{
+    color: white;
+}
+.Gaming{
+    color: white;
+}
+.Teams{
+    color: white;
+}
+.News{
+    color: white;
+}
+.History{
+    color: white;
+}
+.About{
+    color: white;
+}
+.Store{
+    color: white;
+}
+.Lionel_Messi_h5{
+    color: #30316e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.third_page{
+    padding-left: 50px;
+}
+.Lionel_Messi_h5_paragrap{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #9192b3;
+    padding-top: 20px;
+}
+.Lionel_Messi_ttitle{
+    font-size: 25px;
+    padding-top: 50px;
+    color: #606190;
+    font-family: 'Poppins', sans-serif;
+}
+.messis_picture_third_page{
+    width: 1100px;
+    padding-top: 30px;
+}
+.third_page_paragrap{
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.third_page_paragrap2{
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.third_page_h6{
+    color: #30316e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.third_page_h6_page{
+    font-size: 20px;
+    padding-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.Messis_club_records_h6{
+    color: #30316e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
