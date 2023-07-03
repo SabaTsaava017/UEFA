@@ -94,7 +94,7 @@ li:hover{
 }
 .wrapeer{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2fr,1fr,1fr);
     grid-auto-rows: 100px;
     gap: 30px;
 }
@@ -111,6 +111,7 @@ li:hover{
     margin-top: 40px;
     border-radius: 10px;
     text-decoration: none;
+    position: relative;
 }
 .box2{
     border: solid;
@@ -134,6 +135,7 @@ li:hover{
     
 }
 .box4{
+    position: relative;
     border: solid;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -158,6 +160,7 @@ li:hover{
     border-radius: 10px;
 }
 .box7{
+    position: relative;
     border: solid;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -183,20 +186,25 @@ li:hover{
     border-radius: 10px;
 }
 .champions_league_picture{
-    width: 607px;
+    position: relative;
+    width: 100%;
     height: 445px;
     border-radius: 10px;
-    position: absolute;
+    object-fit: cover;
 }
 .box1_paragrap{
-    position: relative;
-    color: white;
+    position: absolute;
+    color:white;
     font-size: 25px;
-    padding-top: 410px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    bottom: 0;
+    padding: 10px;
+
+    
 }
 .messi_picture{
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
@@ -208,6 +216,7 @@ li:hover{
     font-family: 'Poppins', sans-serif;
 }
 .messis_picture2{
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -219,21 +228,24 @@ li:hover{
 }
 
 .kvras_picture{
-    width: 607px;
+    width: 100%;
     height: 485px;
     border-radius: 10px;
-    position: absolute;
+    object-fit: cover;
 }
 .box4_paragrap{
-    position: relative;
+    position: absolute;
     color: white;
-    padding-top: 430px;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
+    bottom: 0;
+    padding: 10px;
 }
 .ronaldos_picture{
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
 }
 .box5_paragrap{
     font-size: 25px;
@@ -242,6 +254,7 @@ li:hover{
     font-family: 'Poppins', sans-serif;
 }
 .champions_league_cup{
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -252,21 +265,22 @@ li:hover{
     font-family: 'Poppins', sans-serif;
 }
 .team_of_season_picture{
-    position: absolute;
-    width: 607px;
+    width: 100%;
     height: 485px;
     border-radius: 10px;
+    object-fit: cover;
 }
 .box7_paragrap{
-    position: relative;
+    position: absolute;
     font-size: 25px;
     padding-top: 20px;
     padding-left: 20px;
-    padding-top: 450px;
-    color: white;
+    color:white;
     font-family: 'Poppins', sans-serif;
+    bottom: 0;
 }
 .Milan_FC_Picture{
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -279,7 +293,7 @@ li:hover{
 .uefas_final_picture{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 370px;
+    width: 100%;
 }
 .box9_paragrap{
     font-size: 25px;
