@@ -8,6 +8,7 @@ body{
 }
 .container{
     margin: 0 auto;
+    max-width: 1920px;
 }
 .UEFA{
     font-size: 20px;
@@ -27,8 +28,11 @@ body{
     width: 100%;
     background-color: gainsboro
 }
-li{
+ul{
     display: flex;
+    align-items: center;
+}
+li{
     display: inline-block;
     padding-left: 50px;
     font-family: 'Roboto', sans-serif;
@@ -42,24 +46,31 @@ li:hover{
 .uefa_logo{
     width: 100px;
     margin-top: 10px;
-    background-color: aliceblue;
-    vertical-align: middle;
+    align-items: center;
 }
 .Favourite_teams{
     margin-left: 300px;
     font-size: 17px;
     border-radius: 20px;
     padding: 10px;
-    vertical-align: middle;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #00004b;
+    color: white;
+    border-color: white;
+    border: 1px solid;
 }
 .plus_button{
     width: 20px;
     vertical-align: middle;
+    background-color: white;
+    border-radius: 12px;
 }
 .second_header{
     width: 100%;
     background-color:#00004b;
     height: 70px;
+    align-items:center;
 }
 .Matches{
     color: white;
@@ -67,24 +78,31 @@ li:hover{
 }
 .Video{
     color: white;
+    padding-top: 20px;
 }
 .Gaming{
     color: white;
+    padding-top: 20px;
 }
 .Teams{
     color: white;
+    padding-top: 20px;
 }
 .News{
     color: white;
+    padding-top: 20px;
 }
 .History{
     color: white;
+    padding-top: 20px;
 }
 .About{
     color: white;
+    padding-top: 20px;
 }
 .Store{
     color: white;
+    padding-top: 20px;
 }
 .first_section_new_html{
     padding-left: 50px;
