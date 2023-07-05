@@ -269,87 +269,98 @@ li:hover{
 .footer_picture_div{
     position: relative;
 }
-.logo2{
-    width: 150px;
-    padding-left: 50px;
+
+.uefas_logo2{
+    position: absolute;
+    left: 0;
+    width: 180px;
+    padding-top: 90px;
+    padding-left: 80px;
 }
 .footer_paragrap1{
-    padding-left: 120px;
-    padding-top: 130px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-}
-.footer_div{
-    display: flex;
-}
-.footer_paragrap2{
-    color: white;
-    padding-top: 130px;
-    padding-left: 230px;
-    font-family: 'Poppins', sans-serif;
-}
-.also_visit{
-    font-size: 15px;
-   
-}
-.footer_paragrap3{
-    padding-left: 200px;
-    padding-top: 130px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-}
-.footer_paragrap4{
-    color: white;
-    padding-top: 100px;
-    padding-left: 180px;
-    font-family: 'Poppins', sans-serif;
-}
-.CHANGE_LANGUAGE{
-    font-size: 15px;
-}
-.googleplay{
-    padding-left: 1200px;
-    padding-top: 50px;
-}
-
-.footer_paragrap5{
-
-    display: flex;
-    color: white;
-    padding-left:441px;
-    padding-top: 20px;
-    font-family: 'Poppins', sans-serif;
-}
-.conditions{
-    padding-left: 70px;
-}
-.Cookie_policy{
-    padding-left: 70px;
-}
-.Cookie_Settings{
-    padding-left: 70px;
-}
-.footer_paragrap6{
-    color: #ccc;
-    padding-top: 10px;
-    padding-left: 670px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-.footer_paragrap7{
-    color: #ccc;
-    padding-left: 300px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-.footer_paragrap8{
-    color:#ccc;
-    padding-left:  350px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-.footer_inscription{
     position: absolute;
     top: 0;
-    padding-top: 1700px;
+    padding-left: 300px;
+    padding-top: 100px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.footer_paragrap2{
+    position: absolute;
+    top: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 600px;
+    padding-top: 100px;
+}
+.also_visit{
+    font-size: 17px;
+}
+.footer_paragrap3{
+    position: absolute;
+    top: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 900px;
+    padding-top: 100px;
+}
+.CHANGE_LANGUAGE{
+    font-size: 17px;
+}
+.footer_paragrap4{
+    position: absolute;
+    top: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1200px;
+    padding-top: 100px;
+}
+.googleplay{
+    position: absolute;
+    top: 0;
+    padding-top: 300px;
+    padding-left: 1350px;
+}
+.appstore{
+    position: absolute;
+    top: 0;
+    padding-top: 300px;
+    padding-left: 1215px;
+}
+.footer_paragrap5{
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding-top: 350px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    gap: 30px;
+    padding-left: 470px;
+}
+.footer_paragrap6{
+    position: absolute;
+    top: 0;
+    color: #ccc;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 630px;
+    padding-top: 410px;
+    font-size: 12px;
+}
+.footer_paragrap7{
+    position: absolute;
+    top: 0;
+    color: #ccc;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 330px;
+    padding-top: 425px;
+    font-size: 12px;
+}
+.footer_paragrap8{
+    position: absolute;
+    top: 0;
+    color: #ccc;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 390px;
+    padding-top: 440px;
+    font-size: 12px;
 }
