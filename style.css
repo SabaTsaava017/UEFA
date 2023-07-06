@@ -229,6 +229,17 @@ li:hover{
     border-radius: 10px;
     object-fit: cover;   
 }
+.picture_div{
+    overflow: hidden;
+    border-radius: 20px;
+}
+.picture_div img{
+    transition: transform 0.5s;
+}
+.picture_div:hover img{
+    transform: scale(1.1);
+    
+}
 .box1_paragrap{
     position: absolute;
     color:white;
