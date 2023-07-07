@@ -154,6 +154,14 @@ li:hover{
     padding-top: 20px;
     line-height: 30px;
 }
+.go_back{
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+.go_back_a{
+    text-decoration: none;
+}
 .footer_picture{
     padding-top: 50px;
     width: 100%;
