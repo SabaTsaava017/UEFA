@@ -257,6 +257,14 @@ li:hover{
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+.go_back{
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+.go_back_a{
+    text-decoration: none;
+}
 .pictures_paragrap{
     color: white;
     font-size: 20px;
