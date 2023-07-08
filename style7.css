@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+.UEFA{
+    font-size: 20px;
+    color:black
+}
+.UEFA_Com2{
+    text-decoration: none;
+}
+.Com{
+    color: gray;
+}
+.UEFA_com{
+    padding-right:550px;
+    font-family: 'Geologica', sans-serif;
+}
+.first_header{
+    width: 100%;
+    background-color: gainsboro
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+li:hover{
+    color: darkturquoise;
+}
+.login_icon{
+    width: 25px;
+}
+.uefa_logo{
+    width: 100px;
+    margin-top: 10px;
+    align-items: center;
+}
+.Favourite_teams{
+    margin-left: 300px;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #00004b;
+    color: white;
+    border-color: white;
+    border: 1px solid;
+}
+.plus_button{
+    width: 20px;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 12px;
+}
+.second_header{
+    width: 100%;
+    background-color:#00004b;
+    height: 70px;
+    align-items:center;
+}
+.Matches{
+    color: white;
+    padding-top: 22px;
+}
+.Video{
+    color: white;
+    padding-top: 20px;
+}
+.Gaming{
+    color: white;
+    padding-top: 20px;
+}
+.Teams{
+    color: white;
+    padding-top: 20px;
+}
+.News{
+    color: white;
+    padding-top: 20px;
+}
+.History{
+    color: white;
+    padding-top: 20px;
+}
+.About{
+    color: white;
+    padding-top: 20px;
+}
+.Store{
+    color: white;
+    padding-top: 20px;
+}
+.Seventh_page{
+    padding-left: 50px;
+}
+.Seventh_page_h2{
+    color: #30316e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.date7{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #9192b3;
+    padding-top: 20px;
+}
+.picture_title7{
+    font-size: 25px;
+    padding-top: 50px;
+    color: #606190;
+    font-family: 'Poppins', sans-serif;
+}
+.Seventh_page_paragrap{
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.Seventh_page_h5{
+    color: black;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+.Seventh_page_paragrap2{
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
+}
+.go_back{
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+.go_back_a{
+    text-decoration: none;
+}
+.footer_picture{
+    padding-top: 50px;
+    width: 100%;
+}
+.footer_picture_div{
+    position: relative;
+}
+
+.uefas_logo2{
+    position: absolute;
+    left: 0;
+    width: 180px;
+    padding-top: 90px;
+    padding-left: 80px;
+}
+.footer_paragrap1{
+    position: absolute;
+    top: 0;
+    padding-left: 300px;
+    padding-top: 100px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.footer_paragrap2{
+    position: absolute;
+    top: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 600px;
+    padding-top: 100px;
+}
+.also_visit{
+    font-size: 17px;
+}
+.footer_paragrap3{
+    position: absolute;
+    top: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 900px;
+    padding-top: 100px;
+}
+.CHANGE_LANGUAGE{
+    font-size: 17px;
+}
+.footer_paragrap4{
+    position: absolute;
+    top: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1200px;
+    padding-top: 100px;
+}
+.googleplay{
+    position: absolute;
+    top: 0;
+    padding-top: 300px;
+    padding-left: 1350px;
+}
+.appstore{
+    position: absolute;
+    top: 0;
+    padding-top: 300px;
+    padding-left: 1215px;
+}
+.footer_paragrap5{
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding-top: 350px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    gap: 30px;
+    padding-left: 470px;
+}
+.footer_paragrap6{
+    position: absolute;
+    top: 0;
+    color: #ccc;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 630px;
+    padding-top: 410px;
+    font-size: 12px;
+}
+.footer_paragrap7{
+    position: absolute;
+    top: 0;
+    color: #ccc;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 330px;
+    padding-top: 425px;
+    font-size: 12px;
+}
+.footer_paragrap8{
+    position: absolute;
+    top: 0;
+    color: #ccc;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 390px;
+    padding-top: 440px;
+    font-size: 12px;
+}
