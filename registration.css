@@ -13,7 +13,7 @@ input[type=submit] {
   color: white;
 }
 .container {
-  background-color: #f1f1f1;
+  background-image: url(./medias/backgroundDark01L.webp);
   padding: 20px;
 }
 .registration{
