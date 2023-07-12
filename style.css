@@ -27,7 +27,7 @@ body{
 }
 .first_header{
     width: 100%;
-    background-color: gainsboro
+    background-color: gainsboro;
 }
 ul{
     display: flex;
@@ -43,6 +43,13 @@ li:hover{
 }
 .login_icon{
     width: 25px;
+    text-decoration: none;
+}
+.login_registration{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    color: black;
 }
 .uefa_logo{
     width: 100px;
@@ -482,4 +489,5 @@ color: #ccc;
     padding-left: 580px;
  color: #ccc;;
 }
+
 
