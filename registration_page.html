@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="registration.css">
-    <title>Document</title>
-
+    <title>Login Page</title>
 </head>
 <body>
-    <h3 class="registration">Registration</h3>
-    
-    <div class="container">
-      <form action="/action_page.php">
-        <label for="usrname">Username</label>
-        <input type="text" id="usrname" name="usrname" required>
-    
-        <label for="psw">Password</label>
-        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+    <form class="box" action="index.html" method="get">
+        <h1>Login</h1>
+        <input type="text" name="" placeholder="Username">
+        <input type="password" name="" placeholder="password">
+
+        <a href="index.html">
+          <input type="submit" name="" value="Login">
+        </a>
         
-        <input type="submit" value="Submit">
-      </form>
-    </div>
+
+    </form>
+    
 </body>
 </html>
