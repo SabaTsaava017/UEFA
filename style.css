@@ -491,5 +491,60 @@ color: #ccc;
     padding-left: 580px;
  color: #ccc;;
 }
+.matches_div{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.Bayern_logo{
+    display: block;
+    width: 40px;
+}
+.arsenal_logo{
+    width: 40px;
+}
+.Arsenal{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+.Bayern{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.date{
+    color: #ccc;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.matches_clock{
+    padding-left: 300px;
+}
+.matches_table{
+    display: flex;
+}
+.matches_table2{
+    display: flex;
+}
+.matches_table3{
+    display: flex;
+
+}
+.matches_table4{
+    display: flex;
+
+}
+.footer_matches{
+    text-decoration: none;
+    color: white;
+}
 
 
