@@ -546,5 +546,16 @@ color: #ccc;
     text-decoration: none;
     color: white;
 }
-
+.footer_video{
+    text-decoration: none;
+    color: white;
+}
+.Team{
+    width: 50px;
+}
+.Team_div{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
 
