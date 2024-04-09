@@ -347,3 +347,7 @@ color: #ccc;
     padding-left: 580px;
  color: #ccc;;
 }
+.footer_links{
+    text-decoration: none;
+    color: white;
+}

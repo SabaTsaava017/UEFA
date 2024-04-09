@@ -37,6 +37,7 @@ li{
     display: inline-block;
     padding-left: 50px;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 li:hover{
     color: darkturquoise;
@@ -542,11 +543,7 @@ color: #ccc;
     display: flex;
 
 }
-.footer_matches{
-    text-decoration: none;
-    color: white;
-}
-.footer_video{
+.footer_links{
     text-decoration: none;
     color: white;
 }
@@ -557,5 +554,12 @@ color: #ccc;
     display: flex;
     gap: 70px;
     justify-content: center;
+    margin-top: 50px;
+}
+.choose_team{
+    font-size: 50px;
+    text-align: center;
+    color: #ccc;
+    padding-top: 30px;
 }
 
