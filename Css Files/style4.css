@@ -43,6 +43,12 @@ li:hover{
 .login_icon{
     width: 25px;
 }
+.login_registration{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    color: black;
+}
 .uefa_logo{
     width: 100px;
     margin-top: 10px;

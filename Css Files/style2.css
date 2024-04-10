@@ -36,12 +36,19 @@ li{
     display: inline-block;
     padding-left: 50px;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 li:hover{
     color: darkturquoise;
 }
 .login_icon{
     width: 25px;
+}
+.login_registration{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    color: black;
 }
 .uefa_logo{
     width: 100px;

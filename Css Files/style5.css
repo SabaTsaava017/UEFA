@@ -48,6 +48,12 @@ li:hover{
     margin-top: 10px;
     align-items: center;
 }
+.login_registration{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    color: black;
+}
 .Favourite_teams{
     margin-left: 300px;
     font-size: 17px;
